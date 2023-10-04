@@ -49,6 +49,8 @@ class MovieSummaryViewAdapter(val frag: MovieSummaryFragment) :
     val current = getItem(position)
     Log.d("MOVIE", current.toString())
     holder.bind(current.movie, current.genres.get(0))
+
+    holder.binding.root.setOnClickListener { view -> frag.selectMovie(current.movie.idMovie) }
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

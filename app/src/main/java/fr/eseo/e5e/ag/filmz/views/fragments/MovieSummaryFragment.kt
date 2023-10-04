@@ -13,6 +13,7 @@ import fr.eseo.e5e.ag.filmz.databinding.FragmentMovieSummaryBinding
 import fr.eseo.e5e.ag.filmz.viewadapters.MovieSummaryViewAdapter
 import fr.eseo.e5e.ag.filmz.viewmodels.MovieSummaryViewModel
 import fr.eseo.e5e.ag.filmz.viewmodels.MovieSummaryViewModelFactory
+import fr.eseo.e5e.ag.filmz.views.FilmzActivity
 
 class MovieSummaryFragment : Fragment() {
   companion object {
@@ -52,5 +53,9 @@ class MovieSummaryFragment : Fragment() {
           Log.d("TABLET", "observed movieSummaryViewModeln")
           movies?.let { viewAdapter.submitList(it) }
         })
+  }
+
+  fun selectMovie(idMovie: Int) {
+    (activity as FilmzActivity).selectMovie(idMovie)
   }
 }

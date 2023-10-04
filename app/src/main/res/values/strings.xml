@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">Filmz</string>
     <string name="dummy_movie_title">The Godfather</string>
-    <string name="dummy_movie_genre">Crime, Drama</string>
+    <string name="dummy_movie_genre">Crime</string>
     <string name="dummy_movie_year">1972</string>
+    <string name="dummy_movie_genres">Crime, Drama</string>
+    <string name="movie_director_label">Director: </string>
+    <string name="dummy_movie_director">Francis Ford Coppola</string>
+    <string name="movie_synopsis_label">Synopsis: </string>
+    <string name="dummy_movie_synopsis">
+        The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+    </string>
+    <string name="movie_reviews_detail">Reviews: </string>
+    <string name="movie_roles_label">Roles: </string>
+    <string name="dummy_movie_country">USA</string>
+    <string name="movie_poster_description">Poster of the movie The Godfather</string>
+    <string name="dummy_movie_score">9.2</string>
+    <string name="movie_details_tmdb">
+        This product uses the TMDb API but is not endorsed or certified by TMDb.
+    </string>
+    <string name="tmdb_image">tmdb.org</string>
+    <string name="dummy_role_name">Michael Corleone</string>
+    <string name="dummy_role_artist">Al Pacino</string>
 </resources>
