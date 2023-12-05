@@ -21,4 +21,6 @@
     <string name="tmdb_image">tmdb.org</string>
     <string name="dummy_role_name">Michael Corleone</string>
     <string name="dummy_role_artist">Al Pacino</string>
+    <string name="api_key">APIKEY</string>
+    <string name="api_read_token">APIREADTOKEN</string>
 </resources>
